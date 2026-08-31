@@ -53,7 +53,7 @@ const birthdayContent = {
     subheading: "memories (so far)",
     photos: [
       { src: "assets/image1.png", caption: "only a truly loving woman could be so patient" },
-      { src: "assets/image2.jpg", caption: "our children" },
+      { src: "assets/image2.JPG", caption: "our children" },
       { src: "assets/image3.jpg", caption: "we r always matching" }
     ]
   },
