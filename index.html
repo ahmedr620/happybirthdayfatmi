@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f7eef4" />
+  <title>for fatmi 🐰</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="sparkle-layer" aria-hidden="true"></div>
+
+  <header class="hero" id="top">
+    <div class="hero-bg-shape hero-bg-shape--one"></div>
+    <div class="hero-bg-shape hero-bg-shape--two"></div>
+
+    <div class="hero-card">
+      <div class="bunny-mark" aria-hidden="true">
+        <span class="ear ear-left"></span>
+        <span class="ear ear-right"></span>
+        <span class="face">♡</span>
+      </div>
+
+      <p class="eyebrow" id="hero-eyebrow"></p>
+      <h1 id="hero-title"></h1>
+      <p class="hero-subtitle" id="hero-subtitle"></p>
+
+      <button class="primary-btn" id="enter-btn">
+        <span id="enter-button-text"></span>
+        <span aria-hidden="true">→</span>
+      </button>
+
+      <p class="tiny-note" id="hero-note"></p>
+    </div>
+
+    <div class="scroll-hint" aria-hidden="true">
+      <span></span>
+    </div>
+  </header>
+
+  <main>
+    <section class="section intro-section reveal">
+      <div class="section-label">01 · a little note</div>
+      <div class="letter-card">
+        <div class="letter-seal">f</div>
+        <h2 id="letter-heading"></h2>
+        <div id="letter-body"></div>
+        <p class="letter-signoff" id="letter-signoff"></p>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="section-label">02 · tiny reasons</div>
+      <div class="section-heading-row">
+        <div>
+          <h2 id="reasons-heading"></h2>
+          <p id="reasons-subheading"></p>
+        </div>
+        <div class="counter-pill"><span id="reason-count">0</span> little things</div>
+      </div>
+
+      <div class="reasons-grid" id="reasons-grid"></div>
+    </section>
+
+    <section class="section reveal">
+      <div class="section-label">03 · our little archive</div>
+      <div class="section-heading-row">
+        <div>
+          <h2 id="gallery-heading"></h2>
+          <p id="gallery-subheading"></p>
+        </div>
+      </div>
+
+      <div class="photo-grid" id="photo-grid"></div>
+    </section>
+
+    <section class="section reveal">
+      <div class="section-label">04 · bunny business</div>
+      <div class="play-card">
+        <div>
+          <p class="mini-kicker">very serious official matter</p>
+          <h2 id="bunny-heading"></h2>
+          <p id="bunny-copy"></p>
+        </div>
+
+        <button class="secondary-btn" id="bunny-btn">conduct official bunny inspection</button>
+        <div class="bunny-result" id="bunny-result" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="section-label">05 · soundtrack</div>
+      <div class="music-card">
+        <div class="vinyl" aria-hidden="true">
+          <div class="vinyl-label">f</div>
+        </div>
+        <div class="music-copy">
+          <p class="mini-kicker">press play when you read this</p>
+          <h2 id="music-heading"></h2>
+          <p id="music-description"></p>
+          <a class="secondary-btn inline-btn" id="music-link" href="#" target="_blank" rel="noopener">open the playlist ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="section-label">06 · certified</div>
+      <div class="certificate">
+        <div class="certificate-inner">
+          <p class="certificate-top">Official Certificate of Bunny Excellence</p>
+          <div class="certificate-stars">✦ ✦ ✦</div>
+          <h2 id="certificate-name"></h2>
+          <p>is hereby recognized as</p>
+          <h3 id="certificate-title"></h3>
+          <p id="certificate-copy"></p>
+          <div class="certificate-footer">
+            <span id="certificate-date"></span>
+            <span class="stamp">100% bunny</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal final-section">
+      <div class="section-label">07 · one last thing</div>
+      <div class="gift-card">
+        <div class="gift-icon" aria-hidden="true">🎁</div>
+        <p class="mini-kicker">you made it to the end</p>
+        <h2 id="gift-heading"></h2>
+        <p id="gift-copy"></p>
+        <button class="primary-btn" id="gift-btn">open your present</button>
+
+        <div class="gift-reveal" id="gift-reveal">
+          <div class="gift-reveal-inner">
+            <p class="mini-kicker">for you, fatmi ♡</p>
+            <h3 id="gift-reveal-title"></h3>
+            <p id="gift-reveal-copy"></p>
+            <a class="secondary-btn inline-btn" id="gift-reveal-link" href="#" target="_blank" rel="noopener">open ur gift (bismillah) ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p id="footer-copy"></p>
+    <a href="#top">back to the beginning ↑</a>
+  </footer>
+
+  <script src="content.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
